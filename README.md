@@ -44,13 +44,15 @@ npm install
 3. Ejecutar la aplicación con:
 npm start
 
-#El frontend abrira automaticamente en: http://localhost:3000
+El frontend abrira automaticamente en: http://localhost:3000
 
-###Base de datos
+## Base de datos
+
 Base de datos: MySQL
+
 Nombre de la BD: Biblioteca
 
-##Query para creacion de BD(Diseño de la base de datos):
+### Query para creacion de BD(Diseño de la base de datos):
 ---------------------------------------------------------------------------------
 -- Crear base de datos
 CREATE DATABASE IF NOT EXISTS Biblioteca;
@@ -114,6 +116,7 @@ INSERT INTO Roles (nombre) VALUES ('Admin'), ('Usuario');
 
 ORM: Sequelize
 
-###Nota
+## Nota
+
 -El frontend no accede directamente a la base de datos; todas las operaciones se realizan a través del backend usando los metodos API POST, GET, etc. desde el frontend.
 
